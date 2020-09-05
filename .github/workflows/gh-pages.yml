@@ -18,7 +18,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo config
+          hugo config > log.txt
           hugo --minify
 
       - name: Deploy

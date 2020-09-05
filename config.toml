@@ -1,0 +1,59 @@
+baseurl = "https://saul-bt.github.io/blog"
+languageCode = "es-es"
+defaultContentLanguage = "es"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
+
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
+
+[languages]
+  [languages.es]
+    title = "Saúl Blanco Tejero | Blog"
+    subtitle = "Un sitio donde compartir mis pensamientos"
+    keywords = ""
+    copyright = ""
+    menuMore = "Ver más"
+    writtenBy = "Escrito por"
+    readMore = "Leer más"
+    readOtherPosts = "Leer otros atículos"
+    newerPosts = "Artículos recientes"
+    olderPosts = "Artículos antiguos"
+    minuteReadingTime = "min de lectura"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.es.params.logo]
+      logoText = "cat saul-bt/blog"
+      logoHomeLink = "/blog"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "about"
+        name = "Acerca de"
+        url = "/about"

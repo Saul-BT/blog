@@ -18,8 +18,8 @@ jobs:
 
       - name: Build
       	run:
-	  hugo config
-	  hugo --minify
+          hugo config
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

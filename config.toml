@@ -1,3 +1,4 @@
+disableKinds = ["page", "home", "section", "taxonomy"]
 baseurl = "https://saul-bt.github.io/blog"
 languageCode = "es-es"
 defaultContentLanguage = "es"
